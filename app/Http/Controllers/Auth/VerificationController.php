@@ -1,4 +1,14 @@
 <?php
+/**
+ * File for verificate user password
+ * php version 7.4
+ *
+ * @category Auth
+ * @package  Files
+ * @author   Safonov Vladimir <safonov.open@gmail.com>
+ * @license  http://opensource.org/licenses/MIT MIT
+ * @link     http://famstor.test/auth
+ */
 
 namespace App\Http\Controllers\Auth;
 
@@ -6,6 +16,16 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\VerifiesEmails;
 
+
+/**
+ * Class for verificate user password
+ *
+ * @category Auth
+ * @package  Class
+ * @author   Safonov Vladimir <safonov.open@gmail.com>
+ * @license  http://opensource.org/licenses/MIT MIT
+ * @link     http://famstor.test/auth
+ */
 class VerificationController extends Controller
 {
     /*
@@ -26,7 +46,7 @@ class VerificationController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected string $redirectTo = RouteServiceProvider::HOME;
 
     /**
      * Create a new controller instance.

@@ -10,6 +10,6 @@
 
 <h1>Наш модуль admin:</h1>
 
-{{ trans('Admin::admin.this_module')}}
+@lang('Admin::admin.this_module')
 </body>
 </html>

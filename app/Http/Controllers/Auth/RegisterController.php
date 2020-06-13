@@ -1,4 +1,14 @@
 <?php
+/**
+ * File uses for register new user
+ * php version 7.4
+ *
+ * @category Auth
+ * @package  Files
+ * @author   Safonov Vladimir <safonov.open@gmail.com>
+ * @license  http://opensource.org/licenses/MIT MIT
+ * @link     http://famstor.test/auth
+ */
 
 namespace App\Http\Controllers\Auth;
 
@@ -9,19 +19,17 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
+/**
+ * Class uses for register new user
+ *
+ * @category Auth
+ * @package  Class
+ * @author   Safonov Vladimir <safonov.open@gmail.com>
+ * @license  http://opensource.org/licenses/MIT MIT
+ * @link     http://famstor.test/auth
+ */
 class RegisterController extends Controller
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Register Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller handles the registration of new users as well as their
-    | validation and creation. By default this controller uses a trait to
-    | provide this functionality without requiring any additional code.
-    |
-    */
-
     use RegistersUsers;
 
     /**
@@ -29,7 +37,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected string $redirectTo = RouteServiceProvider::HOME;
 
     /**
      * Create a new controller instance.
