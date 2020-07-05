@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <!-- JS -->
 
         <!-- Styles -->
         <style>
@@ -79,6 +80,12 @@
                 </div>
             @endif
 
+
+            <div id="app">
+                <example-component></example-component>
+            </div>
+
+
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
@@ -94,7 +101,11 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+
+
             </div>
         </div>
+
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </body>
 </html>

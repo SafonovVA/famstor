@@ -20,47 +20,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc76bc9e-69f9-422e-862a-cec7f8f6304a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RestController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TasksController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Users/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/NiceArtisan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/commands.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/some.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/view.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/808e29db-edaf-4db0-8f72-bf1ffe29c50e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/808e29db-edaf-4db0-8f72-bf1ffe29c50e/storage_v2/_src_/database/etsdb.Ir3FBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/808e29db-edaf-4db0-8f72-bf1ffe29c50e/storage_v2/_src_/database/etsdb.Ir3FBQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/808e29db-edaf-4db0-8f72-bf1ffe29c50e/storage_v2/_src_/database/etsdb.Ir3FBQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/808e29db-edaf-4db0-8f72-bf1ffe29c50e/storage_v2/_src_/database/laravel_db.xN-JWQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/808e29db-edaf-4db0-8f72-bf1ffe29c50e/storage_v2/_src_/database/laravel_db.xN-JWQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/808e29db-edaf-4db0-8f72-bf1ffe29c50e/storage_v2/_src_/database/laravel_db.xN-JWQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/808e29db-edaf-4db0-8f72-bf1ffe29c50e/storage_v2/_src_/database/laravel_db.xN-JWQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Modules/Admin/Controllers/AuthorizationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_30_162519_create_permission_tables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/admin/AdminMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/admin/Authorization.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/admin/PermissionsAuth.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/admin/RoleAccordionCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/admin/RolesAuth.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/admin/SomeComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/admin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/famstor.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/famstor.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Users/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Users/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/NiceArtisan.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/NiceArtisan.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Modules/Admin/Routes/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Routes/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Modules/Admin/Views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/ModulesServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/ModulesServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/commands.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/commands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,10 +81,30 @@
       <executable path="composer" />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
       <server host="famstor.test" id="7787660f-2aa7-4675-86cb-de13e6be01eb" name="famstor.test" />
@@ -198,6 +225,12 @@
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/bestmomo/nice-artisan" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cWxixAznRJWX4qZYbjAkMN7wQU" />
@@ -214,10 +247,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/components/admin" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -225,6 +269,8 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/js/components/admin" />
+      <recent name="$PROJECT_DIR$/resources/js/components/some" />
       <recent name="$PROJECT_DIR$/app/Modules/Test" />
     </key>
   </component>
@@ -240,7 +286,11 @@
       <command value="php artisan route:clear" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.guzzle/Dockerfile">
+  <component name="RunManager" selected="PHPUnit.ExampleTest">
+    <configuration name="ExampleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExampleTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -259,8 +309,42 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="development" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="development" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch-poll" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch-poll" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ExampleTest" />
+        <item itemvalue="npm.watch" />
+        <item itemvalue="npm.watch-poll" />
+        <item itemvalue="npm.development" />
         <item itemvalue="Docker.guzzle/Dockerfile" />
       </list>
     </recent_temporary>
@@ -287,6 +371,22 @@
       <workItem from="1591597014797" duration="64000" />
       <workItem from="1591597091812" duration="154000" />
       <workItem from="1591943424822" duration="40000" />
+      <workItem from="1592230172743" duration="599000" />
+      <workItem from="1592458751072" duration="958000" />
+      <workItem from="1593056083027" duration="603000" />
+      <workItem from="1593101018872" duration="33000" />
+      <workItem from="1593186008170" duration="97000" />
+      <workItem from="1593186185724" duration="2785000" />
+      <workItem from="1593241897781" duration="4285000" />
+      <workItem from="1593397540226" duration="2818000" />
+      <workItem from="1593402074168" duration="1848000" />
+      <workItem from="1593485847343" duration="10159000" />
+      <workItem from="1593592311804" duration="2587000" />
+      <workItem from="1593658491390" duration="10643000" />
+      <workItem from="1593748201481" duration="5230000" />
+      <workItem from="1593758151324" duration="11406000" />
+      <workItem from="1593847966722" duration="12687000" />
+      <workItem from="1593962287162" duration="3020000" />
     </task>
     <servers />
   </component>
@@ -309,10 +409,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="543" y="201" width="824" height="691" key="#CLI_Interpreters" timestamp="1590680109116">
+    <state x="543" y="201" width="824" height="691" key="#CLI_Interpreters" timestamp="1593530106382">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="543" y="201" width="824" height="691" key="#CLI_Interpreters/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590680109116" />
+    <state x="543" y="201" width="824" height="691" key="#CLI_Interpreters/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593530106382" />
+    <state x="589" y="221" width="732" height="644" key="#Inspections" timestamp="1593531334633">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="589" y="221" width="732" height="644" key="#Inspections/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593531334633" />
     <state x="829" y="408" width="251" height="270" key="#Notifications" timestamp="1590662478707">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -345,26 +449,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="454" width="523" height="178" key="ComposerInitDialogKey/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590746111290" />
-    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1590751508768">
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593101048118">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590751508768" />
-    <state width="1425" height="258" key="GridCell.Tab.0.bottom" timestamp="1590751759991">
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593101048118" />
+    <state x="0" y="17" width="1910" height="1060" key="FileDocumentManager.FileCacheConflict" timestamp="1593243651460">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1425" height="258" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590751759991" />
-    <state width="1425" height="258" key="GridCell.Tab.0.center" timestamp="1590751759991">
+    <state x="0" y="17" width="1910" height="1060" key="FileDocumentManager.FileCacheConflict/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593243651460" />
+    <state width="1874" height="258" key="GridCell.Tab.0.bottom" timestamp="1593532935719">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1425" height="258" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590751759991" />
-    <state width="1425" height="258" key="GridCell.Tab.0.left" timestamp="1590751759991">
+    <state width="1874" height="258" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593532935719" />
+    <state width="1874" height="258" key="GridCell.Tab.0.center" timestamp="1593532935719">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1425" height="258" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590751759991" />
-    <state width="1425" height="258" key="GridCell.Tab.0.right" timestamp="1590751759991">
+    <state width="1874" height="258" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593532935719" />
+    <state width="1874" height="258" key="GridCell.Tab.0.left" timestamp="1593532935719">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1425" height="258" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590751759991" />
+    <state width="1874" height="258" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593532935719" />
+    <state width="1874" height="258" key="GridCell.Tab.0.right" timestamp="1593532935719">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="258" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593532935719" />
     <state width="1425" height="351" key="GridCell.Tab.1.bottom" timestamp="1590751634039">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -397,26 +505,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1425" height="351" key="GridCell.Tab.2.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590751634039" />
-    <state x="1180" y="331" width="593" height="575" key="NewPhpClassDialog" timestamp="1590729110981">
+    <state x="1180" y="331" width="593" height="575" key="NewPhpClassDialog" timestamp="1593761151635">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1180" y="331" width="593" height="575" key="NewPhpClassDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590729110981" />
+    <state x="1180" y="331" width="593" height="575" key="NewPhpClassDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593761151635" />
     <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog" timestamp="1590725088858">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590725088858" />
-    <state x="449" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1591596840391">
+    <state x="483" y="122" width="1022" height="737" key="SettingsEditor" timestamp="1593537273205">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="449" y="175" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591596840391" />
-    <state x="651" y="279" width="618" height="522" key="find.popup" timestamp="1590667987302">
+    <state x="483" y="122" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593537273205" />
+    <state x="651" y="279" width="618" height="580" key="find.popup" timestamp="1593952491067">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="651" y="279" width="618" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590667987302" />
-    <state x="624" y="245" width="672" height="677" key="run.anything.popup" timestamp="1590751769266">
+    <state x="651" y="279" width="618" height="580" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593952491067" />
+    <state x="624" y="245" width="672" height="677" key="run.anything.popup" timestamp="1593964072564">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="624" y="245" width="672" height="677" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1590751769266" />
+    <state x="624" y="245" width="672" height="677" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593964072564" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1593759553279">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1593759553279" />
     <state x="685" y="454" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590661110949">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

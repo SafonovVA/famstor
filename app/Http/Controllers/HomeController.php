@@ -23,6 +23,38 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $url_data = [
+            [
+                'title' => 'Safonov',
+                'url' => 'famstor.test',
+            ],
+            [
+                'title' => 'Inessa',
+                'url' => 'love.you',
+            ]
+        ];
+
+        return view('start', [
+            'url_data' => $url_data
+        ]);
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \string[][]
+     */
+    public function getJson()
+    {
+        return [
+            [
+                'title' => 'Google',
+                'url' => 'http://google.ru'
+            ],
+            [
+                'title' => 'Yandex',
+                'url' => 'http://ya.ru'
+            ]
+        ];
     }
 }

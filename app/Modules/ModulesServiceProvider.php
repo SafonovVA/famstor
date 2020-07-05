@@ -3,6 +3,7 @@
 namespace App\Modules;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Routing\ResourceRegistrar;
 
 class ModulesServiceProvider extends ServiceProvider
 {
@@ -26,6 +27,7 @@ class ModulesServiceProvider extends ServiceProvider
                 if (is_dir(__DIR__ . '/' . $module . '/Lang')) {
                     $this->loadTranslationsFrom(__DIR__ . '/' . $module . '/Lang', $module);
                 }
+
             }
         }
     }

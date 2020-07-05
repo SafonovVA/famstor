@@ -8,6 +8,7 @@ Route::get('/', fn() => view('welcome'));             // =
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home/get-json', 'HomeController@getJson')->name('home');
 
 Route::get('redirect', fn() => redirect()->to('users'));
 
@@ -27,8 +28,8 @@ Route::name('users.')
         Route::get('{user}', 'UsersController@view')
             ->where(['user' => '[A-Za-z]+'])->name('view');
 
-        Route::get('{id}/{some}', 'UsersController@some')
-            ->where(['id' => '[0-9]+', 'some' => '[A-Za-z]+'])->name('some');
+        Route::get('{id}/{admin}', 'UsersController@admin')
+            ->where(['id' => '[0-9]+', 'admin' => '[A-Za-z]+'])->name('admin');
     });
 
 Route::fallback(fn() => redirect()->refresh());

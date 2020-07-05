@@ -1,14 +1,34 @@
 <?php
-
+/**
+ * File user class
+ * php version 7.4
+ *
+ * @category Auth
+ * @package  Files
+ * @author   Safonov Vladimir <safonov.open@gmail.com>
+ * @license  http://opensource.org/licenses/MIT MIT
+ * @link     http://famstor.test/auth
+ */
 namespace App\Models;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Spatie\Permission\Traits\HasRoles;
 
+/**
+ * Class for user model
+ *
+ * @category Auth
+ * @package  Class
+ * @author   Safonov Vladimir <safonov.open@gmail.com>
+ * @license  http://opensource.org/licenses/MIT MIT
+ * @link     http://famstor.test/auth
+ */
 class User extends Authenticatable
 {
     use Notifiable;
+    use HasRoles;
 
     /**
      * The attributes that are mass assignable.
@@ -44,6 +64,7 @@ class User extends Authenticatable
      */
     public function isAdmin()
     {
-        return true;
+        //dd($this->hasRole('super-admin'));
+        return $this->hasRole('super-admin');
     }
 }

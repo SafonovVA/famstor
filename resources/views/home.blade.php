@@ -20,4 +20,7 @@
         </div>
     </div>
 </div>
+<example-component></example-component>
+<ajax-component></ajax-component>
+<prop-component></prop-component>
 @endsection

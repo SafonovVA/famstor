@@ -133,6 +133,7 @@ return [
         ],
 
         'clear' => [
+            'optimize:clear',
             'route:clear',
             'cache:clear',
             'config:clear'

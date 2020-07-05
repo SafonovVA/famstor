@@ -1,4 +1,14 @@
 <?php
+/**
+ * File user config
+ * php version 7.4
+ *
+ * @category Config
+ * @package  Files
+ * @author   Safonov Vladimir <safonov.open@gmail.com>
+ * @license  http://opensource.org/licenses/MIT MIT
+ * @link     http://famstor.test/auth
+ */
 
 return [
 

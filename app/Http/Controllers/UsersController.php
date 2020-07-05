@@ -30,6 +30,6 @@ class UsersController extends Controller
 
     public function some($id, $some)
     {
-        return $id . ' some ' . $some;
+        return $id . ' admin ' . $some;
     }
 }
