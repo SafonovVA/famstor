@@ -37,7 +37,7 @@
                 this.loadingInProgress = true;
                 try {
                     const response = await axios.get('/admin/permissions');
-                    this.allPermissions = response.data;
+                    this.allPermissions = response.data.result;
                 } catch (error) {
                     this.error = error;
                 } finally {

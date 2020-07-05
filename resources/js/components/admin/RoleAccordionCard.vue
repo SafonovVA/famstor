@@ -55,8 +55,8 @@
                     return;
                 }
                 try {
-                    const response = await axios.get(`/admin/roles/${this.role}/permissions`);
-                    this.rolePermissions = response.data;
+                    const response = await axios.get(`/admin/roles/${this.role}`);
+                    this.rolePermissions = response.data.result;
                     if (this.rolePermissions.length === 0) {
                         this.rolePermissions = [{id: 0, name: 'The role does not have permissions.'}];
                     }
@@ -67,14 +67,12 @@
                 }
             },
             removeRole: async function () {
-                if (!confirm(`Do you really want to remove the role with ${this.role} name`)) {
+                if (!confirm(`Do you really want to remove the role with "${this.role}" name`)) {
                     return;
                 }
                 this.removingInProgress = true;
                 try {
-                    const response = await axios.post('/admin/roles/delete', {
-                        roleName: this.role,
-                    });
+                    const response = await axios.delete(`admin/roles/${this.role}`);
                     if (response.data.result !== 'success') {
                         alert(response.data.result);
                     } else {

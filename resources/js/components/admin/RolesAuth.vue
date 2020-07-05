@@ -12,7 +12,8 @@
                     :key="index"
                     :role="role"
                     :index="index"
-                    :dataParent="accordionId" @delete-role-accordion-card="deleteAccordionCard"></role-accordion-card>
+                    :dataParent="accordionId"
+                    @delete-role-accordion-card="deleteAccordionCard"></role-accordion-card>
             </div>
         </template>
         <span v-else>{{ error.message }}</span>
@@ -60,7 +61,7 @@
                 this.loadingInProgress = true;
                 try {
                     const response = await axios.get('/admin/roles');
-                    this.allRoles = response.data;
+                    this.allRoles = response.data.result;
                 } catch (error) {
                     this.error = error;
                 } finally {
@@ -72,7 +73,7 @@
                 try {
                     const roleName = this.newRole;
                     this.newRole = '';
-                    const response = await axios.post('/admin/roles/create', {
+                    const response = await axios.post('admin/roles', {
                         roleName: roleName,
                     });
                     if (response.data.result !== 'success') {
