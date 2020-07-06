@@ -2,6 +2,7 @@
 
 namespace App\Modules\Admin\Controllers;
 
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Permission;
 
@@ -10,7 +11,7 @@ class PermissionsController extends AdminController
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
     public function index()
     {
@@ -41,12 +42,12 @@ class PermissionsController extends AdminController
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param  int  $permission
+     * @return JsonResponse
      */
-    public function show($id)
+    public function show($permission)
     {
-        //
+        return response()->json(['result' => Permission::findByName($permission)], 200);
     }
 
     /**

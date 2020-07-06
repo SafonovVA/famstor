@@ -12,8 +12,12 @@
             </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><roles-auth></roles-auth></div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><permissions-auth></permissions-auth></div>
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <roles-auth></roles-auth>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <permissions-auth></permissions-auth>
+            </div>
             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Users</div>
         </div>
     </div>
@@ -24,7 +28,7 @@
     import PermissionsAuth from "./PermissionsAuth";
     export default {
         name: "Authorization",
-        components: {RolesAuth, PermissionsAuth}
+        components: {RolesAuth, PermissionsAuth},
     }
 </script>
 

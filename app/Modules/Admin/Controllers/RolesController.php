@@ -22,11 +22,11 @@ class RolesController extends AdminController
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return JsonResponse
      */
     public function create()
     {
-        //
+        return response()->json(['result' => null], 404);
     }
 
     /**
@@ -49,7 +49,7 @@ class RolesController extends AdminController
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param string $role
      * @return JsonResponse
      */
     public function show($role)
@@ -58,41 +58,65 @@ class RolesController extends AdminController
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Associated new permission with role
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param string $permission
+     * @param string $role
+     * @return JsonResponse
      */
-    public function edit($id)
+    public function edit($role, $permission)
     {
-        //
+        try {
+            $role = Role::findByName($role);
+            $role->givePermissionTo($permission);
+        } catch (\Exception $exception) {
+            $result = 'Error while adding permission to role';
+        }
+
+        return response()->json(['result' => $result ?? 'success'], 200);
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param string $role
+     * @return JsonResponse
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $role)
     {
-        //
+        $type = $request->input('type');
+        if ($type === 'remove') {
+            try {
+                $role = Role::findByName($role);
+                $role->revokePermissionTo($request->input('permissionName'));
+            } catch (\Exception $exception) {
+                $result = 'Error while removing permission';
+            }
+        } elseif ($type === 'add') {
+            try {
+                $role = Role::findByName($role);
+                $role->givePermissionTo($request->input('permissionName'));
+            } catch (\Exception $exception) {
+                $result = 'Error while adding permission to role';
+            }
+        }
+
+        return response()->json(['result' => $result ?? 'success'], 200);
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  string  $role
+     * @param string $role
      * @return JsonResponse
      */
     public function destroy($role)
     {
-        //$roleName = $request->input('roleName');
         try {
             Role::findByName($role)->delete();
         } catch (\Exception $e) {
-            $result ='Role already deleted';
+            $result = 'Role already deleted';
         }
         return response()->json(['result' => $result ?? 'success'], 200);
     }

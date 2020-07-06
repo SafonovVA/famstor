@@ -62,8 +62,7 @@
     </div>
 </nav>
 
-<div class="container">
-<div id="admin">
+<div id="admin" class="container">
     <div class="row">
         <div class="col-3">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -73,12 +72,15 @@
         </div>
         <div class="col-9">
             <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><authorization></authorization></div>
-                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><admin-main></admin-main></div>
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <authorization></authorization>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <admin-main></admin-main>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 </body>
@@ -86,9 +88,3 @@
 
 
 {{--@lang('Admin::admin.this_module')--}}
-{{--<script type="module">
-    import Authorization from "../../../../resources/js/components/admin/Authorization";
-    export default {
-        components: {Authorization}
-    }
-</script>--}}
